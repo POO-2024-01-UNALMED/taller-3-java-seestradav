@@ -8,7 +8,7 @@ private boolean estado;
 private int volumen;
 private Control control;
 private static int numTV=0;
-TV(Marca marc,boolean bool){
+public TV(Marca marc,boolean bool){
 	if (bool==true) {
 		this.estado=true;
 	}
@@ -17,7 +17,7 @@ TV(Marca marc,boolean bool){
 	}
 	marca=marc;
 }
-TV(){
+public TV(){
 	this.canal =1;
 	this.volumen=1;
 	this.precio=500;
@@ -52,10 +52,10 @@ public void setControl(Control cont){
 public Control getControl() {
 	return control;
 }
-public void setnumTV(int num){
+public static void setNumTV(int num){
 	numTV=num;
 }
-public int getnumTV() {
+public static int getNumTV() {
 	return numTV;
 }
 public void turnOn() {
@@ -64,7 +64,7 @@ public void turnOn() {
 public void turnOff() {
 	this.estado =false; 
 }
-public boolean getestado() {
+public boolean getEstado() {
 	return estado;
 }
 public void canalUp() {
