@@ -21,34 +21,34 @@ TV(){
 	this.volumen=1;
 	this.precio=500;
 }
-public void setmarca(Marca mar){
+public void setMarca(Marca mar){
 	this.marca=mar;
 }
-public Marca getmarca() {
+public Marca getMarca() {
 	return marca;
 }
-public void setcanal(int can){
+public void setCanal(int can){
 	this.canal=can;
 }
-public int getcanal() {
+public int getCanal() {
 	return canal;
 }
-public void setprecio(int pre){
+public void setPrecio(int pre){
 	precio=pre;
 }
-public int getprecio() {
+public int getPrecio() {
 	return precio;
 }
-public void setvolumen(int vol){
+public void setVolumen(int vol){
 	volumen=vol;
 }
-public int getvolumen() {
+public int getVolumen() {
 	return volumen;
 }
-public void setcontrol(Control cont){
+public void setControl(Control cont){
 	control=cont;
 }
-public Control getcontrol() {
+public Control getControl() {
 	return control;
 }
 public void setnumTV(int num){
