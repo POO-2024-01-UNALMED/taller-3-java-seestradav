@@ -15,7 +15,7 @@ public TV(Marca marc,boolean bool){
 	else {
 		this.estado=false;
 	}
-	marca=marc;
+	this.marca=marc;
 }
 public TV(){
 	this.canal =1;
