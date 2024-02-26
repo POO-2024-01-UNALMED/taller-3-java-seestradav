@@ -15,6 +15,7 @@ TV(Marca marc,boolean bool){
 	else {
 		this.estado=false;
 	}
+	marca=marc;
 }
 TV(){
 	this.canal =1;
