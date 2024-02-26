@@ -9,12 +9,7 @@ private int volumen;
 private Control control;
 private static int numTV=0;
 public TV(Marca marc,boolean bool){
-	if (bool==true) {
-		this.estado=true;
-	}
-	else {
-		this.estado=false;
-	}
+	this.estado=bool;
 	this.marca=marc;
 }
 public TV(){
