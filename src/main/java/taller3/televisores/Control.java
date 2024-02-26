@@ -29,7 +29,7 @@ public void enlazar(TV tv) {
 	this.tv=tv;
 	this.tv.setControl(this);
 }
-public void setv(TV tv1) {
+public void setTv(TV tv1) {
 	this.tv=tv1;
 }
 public TV getTv() {
