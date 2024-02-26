@@ -21,7 +21,7 @@ public Marca getMarca() {
 	return marca;
 }
 public void setCanal(int can){
-	if (can<121 && can>0) {this.canal=can;}
+	if (can<121 && can>0 && estado==true) {this.canal=can;}
 }
 public int getCanal() {
 	return canal;
@@ -33,7 +33,7 @@ public int getPrecio() {
 	return precio;
 }
 public void setVolumen(int vol){
-	if (vol<8 && vol>-1) {this.volumen=vol;};
+	if (vol<8 && vol>-1 && estado==true) {this.volumen=vol;};
 }
 public int getVolumen() {
 	return volumen;
