@@ -18,10 +18,10 @@ public TV(){
 	this.precio=500;
 }
 public void setMarca(Marca mar){
-	this.marca=mar;
+	marca.getNombre();
 }
 public Marca getMarca() {
-	return marca;
+	return this.marca;
 }
 public void setCanal(int can){
 	if (can<120 && can>1) {this.canal=can;}
