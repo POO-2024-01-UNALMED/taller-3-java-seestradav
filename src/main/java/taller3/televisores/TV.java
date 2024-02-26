@@ -11,17 +11,18 @@ private static int numTV=0;
 public TV(Marca marc,boolean bool){
 	this.estado=bool;
 	this.marca=marc;
+	numTV++;
 }
 public TV(){
-	this.canal =1;
-	this.volumen=1;
-	this.precio=500;
+	canal =1;
+	volumen=1;
+	precio=500;
 }
 public void setMarca(Marca mar){
-	marca.getNombre();
+	marca=mar;	
 }
 public Marca getMarca() {
-	return this.marca;
+	return marca;
 }
 public void setCanal(int can){
 	if (can<120 && can>1) {this.canal=can;}
